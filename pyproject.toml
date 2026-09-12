@@ -1,16 +1,18 @@
 [project]
-name = "micrograd"
+name = "my-micrograd-practice"
 version = "0.1.0"
-description = "builidng micrograd engine"
+description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "tarun gupta", email = "taruneng12@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "micrograd>=0.1.0",
+]
 
 [project.scripts]
-micrograd = "micrograd:main"
+my-micrograd-practice = "my_micrograd_practice:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
