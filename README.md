@@ -1,6 +1,6 @@
 # Mini Autograd Engine
 
-A lightweight scalar-based automatic differentiation engine built from scratch in Python, inspired by the core concepts of [micrograd](https://github.com/karpathy/micrograd).
+A lightweight scalar-based automatic differentiation engine built from scratch in Python.
 
 ## Features
 
