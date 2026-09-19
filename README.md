@@ -114,6 +114,7 @@ src/
 
 - `micrograd/engine.py` — scalar autograd engine and backpropagation
 - `micrograd/computation_graph_visualizer.py` — computational graph visualization utilities
+- `micrograd/nn.py` — neural network building module
 - `my_micrograd_practice/` — practice and from-scratch implementation work
 
 ## Tech Stack
