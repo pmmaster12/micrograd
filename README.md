@@ -71,7 +71,7 @@ where each neuron maintains its own weights and bias using `Value` objects. Beca
 ### Autograd
 
 ```python
-from micrograd.engine import Value
+from src.micrograd.engine import Value
 
 a = Value(2.0)
 b = Value(-3.0)
@@ -88,7 +88,7 @@ print(b.grad)
 The neural-network module can be constructed by specifying the number of inputs and the number of neurons in each layer:
 
 ```python
-from my_micrograd_practice.nn import Neuron, Layer, MLP
+from src.micrograd.nn import Neuron, Layer, MLP
 
 model = MLP(3, [4, 4, 1])
 ```
