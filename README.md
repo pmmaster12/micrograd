@@ -40,14 +40,6 @@ which creates:
 
 Each weight and bias is a `Value`, meaning the entire network participates in the same computational graph and can be differentiated automatically.
 
-### 🔬 Goal
-
-I'm building this from scratch to understand the mechanics behind:
-
-**Autograd → Backpropagation → Neural Networks**
-
-before hiding them behind high-level frameworks.
-
 ### 🛠 Stack
 
 `Python` · `OOP` · `Computational Graphs` · `Autodiff` · `Backpropagation` · `Neural Networks`
